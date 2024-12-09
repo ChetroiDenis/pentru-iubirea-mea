@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Draw Heart Animation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="dedication">
+    <h2 style="color: rgb(255, 0, 0);">Te iubesc foarte mult iubirea mea!</h2>
+    <p>Iubire sa stii ca esti tot ce mi-am dorit vreodata, m-am indragostit de tine foarte tare fara ca sa-mi dau seama,
+      esti tot ce mi-am dorit vreodata dragostea mea si vreau sa fiu alaturi de tine toata viata. Te iubesc enorm de
+      mult iubirica mea!</p>
+
+
+  </div>
+
+  <!-- partial:index.partial.html -->
+  <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 90 90" version="1.1">
+    <g class="heart-loader__group">
+      <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z" />
+      <path class="heart-loader__circle m--left" stroke-width="1" fill="none"
+        d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0" />
+      <path class="heart-loader__circle m--right" stroke-width="1" fill="none"
+        d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0" />
+      <path class="heart-loader__heartPath" stroke-width="2"
+        d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
+    </g>
+  </svg>
+  <!-- partial -->
+
+
+
+</body>
+
+</html>
+
+<style>
+  .dedication {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .dedication h2 {
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+    max-width: auto;
+    padding-top: 200px;
+  }
+
+  .dedication p {
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 50px;
+  }
+
+</style>
